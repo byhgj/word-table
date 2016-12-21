@@ -65,7 +65,7 @@
     // 初始化数据
     function _initDatas() {
       tableDatas = tableBody.concat(); 
-      tableDatas.splice(0, 0, tableHeader);
+      if (tableHeader.length>0) tableDatas.splice(0, 0, tableHeader);
 
       // reset
       tableColLength = [];
