@@ -1,5 +1,7 @@
 # word-table
 
+**This fork resolved data without header.**
+
 > **word-table** is a simple javascript (browserjs / nodejs) library for drawing ascii tables in the `terminal` / `console`. Based on [word-width](https://github.com/hustcc/word-width).
 
 
